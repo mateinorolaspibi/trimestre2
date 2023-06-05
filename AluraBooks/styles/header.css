@@ -20,11 +20,14 @@
 .container_imagem{
     padding: 1em;
 }
-.container_botão:checked- .lista-menu{ 
+.lista-menu{
     display: none;
     position: absolute;
     top: 100%;
     width: 60vw;
+}
+.container_botão:checked-.lista-menu{ 
+    display: block;
 }
 .lista-menu_titulo,
 .lista-menu_item{
@@ -33,6 +36,7 @@
 }
 .lista-menu_titulo{
 color: var(--laranja);
+font-weight: 700;
 }
 .lista-menu_link{
     background: var(--azul-degrade);
@@ -41,6 +45,7 @@ color: var(--laranja);
     background-clip: text;
     text-transform: uppercase;
 }
+
 .container_botão {
     display: none;
 }
