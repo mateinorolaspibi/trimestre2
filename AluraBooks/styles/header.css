@@ -36,7 +36,7 @@
 }
 .lista-menu_titulo{
 color: var(--laranja);
-font-weight: 700;
+font-weight: 700;  
 }
 .lista-menu_link{
     background: var(--azul-degrade);
