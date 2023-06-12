@@ -26,10 +26,9 @@
     top: 100%;
     width: 60vw;
 }
-.container_botão:checked-.lista-menu{ 
+.container_botão:checked ~.lista-menu{ 
     display: block;
 }
-.lista-menu_titulo,
 .lista-menu_item{
     padding: 1em;
     background-color: var(--branco);
