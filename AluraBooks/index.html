@@ -66,6 +66,9 @@ css2?family=Poppins:ital,wght@0,600;0,700;1,500;1,600&display=swap" rel="stylesh
   <!-- Slider main container -->
 <div class="swiper">
   <!-- Additional required wrapper -->
+ <!-- If we need pagination -->
+ <div class="swiper-pagination"></div>
+
   <div class="swiper-wrapper">
     <!-- Slides -->
     <div class="swiper-slide"><img src="img/ApacheKafka@2x.svg" 
@@ -77,17 +80,35 @@ css2?family=Poppins:ital,wght@0,600;0,700;1,500;1,600&display=swap" rel="stylesh
       
     ...
   </div>
-  <!-- If we need pagination -->
-  <div class="swiper-pagination"></div>
+  
 
   <!-- If we need navigation buttons -->
   <div class="swiper-button-prev"></div>
   <div class="swiper-button-next"></div>
 
-  <!-- If we need scrollbar -->
-  <div class="swiper-scrollbar"></div>
 </div>
-
+<div class="card">
+  <!--Primeira linha-->
+<div class="card_descricao">
+  <!--Primeira coluna-->
+<div class="descricao">
+  <h3 class="descricao_titulo">Talvez vocẽ Também se Interesse por...</h3>
+  <h2 class="descricao_titulo-livro">Angular 11 e firebase</h2>
+  <p class="descricao_texto">Construindo uma aplicação integrado com a plataforma do google</p>
+</div>
+<!--Segunda coluna-->
+<img src="img/Card Interesse Angular@2x.svg" class="descricao_imagem">
+</div>
+<!--Segunda linha-->
+<div class="card_botoes">
+  <!--Primeira coluna-->
+  <ul class="botoes">
+    <li class="botoes_item"><img src="img/Favoritos.svg"
+      alt="Favoritar livro"></li>
+      <li class="botoes_item"><img src="img/Compras.svg"
+alt="Adicionar no carrinho de compras"></li>
+  </ul>
+</div>
 </section>
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.
 js"></script>
