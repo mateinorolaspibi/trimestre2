@@ -12,7 +12,7 @@
 css2?family=Poppins:ital,wght@300,400;500,700&&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https:// cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 <link rel="stylesheet" href="style.css">
-
+   </head>
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 <header class="cabeçalho">
   <div class="container">
@@ -59,7 +59,8 @@ css2?family=Poppins:ital,wght@300,400;500,700&&display=swap" rel="stylesheet">
   <!-- Slider main container -->
 <div class="swiper">
   <!-- Additional required wrapper -->
- <!-- If we need pagination-->
+  <!-- It we need pagination -->
+  <div class="swiper-pagination"></div>
 ￼<div class="swiper-wrapper">
   <!--Slides-->
   <div class="swiper-slide"><img src="img/ApacheKafka@2x.svg" alt="Livro sobre Apache Kafka e spring boot da AluraBooks"></div>
@@ -78,6 +79,19 @@ css2?family=Poppins:ital,wght@300,400;500,700&&display=swap" rel="stylesheet">
 <did class="swiper-scrollbar"></div>
 </div>
 </section>
+<script src="html://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+  const swiper=new Swiper('.swiper',{
+    spaceBetween: 10,
+    slidesPerView: 3,
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+    },
+  });
+</script>
+</body>
+</html>
 <div class="card">
   <!--Primeira linha-->
 <div class="card_descricao">
